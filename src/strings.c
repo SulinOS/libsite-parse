@@ -86,7 +86,6 @@ char *getToken(char *src,char* token){
 	strcat(search,"=\"");
   char *tmp=strcut(src,search,1);
   tmp=strcut(tmp,"\"",0);
-  printf("%s",tmp);
 	return tmp;
 }
 char *strcut(char*src, char*search,int status){
